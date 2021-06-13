@@ -1,9 +1,8 @@
 {
   "kind": "collectionType",
-  "collectionName": "categories",
+  "collectionName": "publishers",
   "info": {
-    "name": "category",
-    "description": ""
+    "name": "publisher"
   },
   "options": {
     "increments": true,
@@ -14,8 +13,8 @@
   "attributes": {
     "name": {
       "type": "string",
-      "required": true,
-      "unique": true
+      "unique": true,
+      "required": true
     },
     "slug": {
       "type": "uid",
